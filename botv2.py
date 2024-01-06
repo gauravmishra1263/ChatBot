@@ -85,10 +85,6 @@ if submit:
 st.divider()
 
 # Display chat history
-st.subheader(" Chat history  ")
+st.subheader(" Chat History  ")
 for role, text in st.session_state["chat_history"]:
     st.write(f"{role}: {text}")
-    
-    
-    
-
